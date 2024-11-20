@@ -8,10 +8,9 @@ from tensorflow.keras import layers, models
 from openpyxl import Workbook
 from pathlib import Path
 
-# Paramètres de chemin de fichier
-input_excel = "data.xlsx"  # Nom exact du fichier d'entrée
-output_folder = "dossier_audio_traite"  # Dossier de sortie pour les fichiers audio traités
-excel_output = "classification_audio.xlsx"  # Nom du fichier Excel de sortie
+input_excel = "data.xlsx"  
+output_folder = "dossier_audio_traite"  
+excel_output = "classification_audio.xlsx" 
 target_duration = 2.0  # Durée cible en secondes pour chaque fichier audio
 
 # Demande à l'utilisateur s'il veut fixer une limite au nombre de fichiers audio
